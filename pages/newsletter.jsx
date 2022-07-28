@@ -19,7 +19,7 @@ const newsletter = () => {
             <div className='col-span-4'>
                 <h3>Overview</h3>
                 <p>
-                Converting user inserted details into flatpack using JSON.stringify() for migration onto Mailchimp's server.
+                Converting user inserted details into flatpack using JSON.stringify() for migration onto Mailchimp&apos;s server.
                 </p>
 
                 {/* <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
