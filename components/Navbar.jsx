@@ -5,7 +5,6 @@ import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {useRouter} from 'next/router'
-import logo from '../public/assets/haider-logo.png'
 
 const Navbar = () => {
 
@@ -45,9 +44,9 @@ const Navbar = () => {
 
   return (
     <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+        <div className='flex justify-between items-center w-full h-full px-8 md:px-16 2xl:px-32'>
             <Link href='/' >
-                <Image src={logo} alt="/" width='120' height='75' />
+                <Image src="/../public/assets/haider-logo.png" alt="/" width='120' height='75' />
             </Link>
             <div>
                 <ul style={{ color: `${linkColor}`}} className='hidden md:flex'>
@@ -76,7 +75,7 @@ const Navbar = () => {
             <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                  <div className='flex w-full items-center justify-between'>
                     <Link href='/'>
-                        <Image onClick={() => setNav(false)} src={logo} alt="/" width='125' height='100' />
+                        <Image onClick={() => setNav(false)} src="/../public/assets/haider-logo.png" alt="/" width='125' height='100' />
                     </Link>
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                         <AiOutlineClose />
@@ -104,7 +103,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                     <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
+                        <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                                 <FaLinkedinIn /> 
