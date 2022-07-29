@@ -26,17 +26,17 @@ const Contact = () => {
                         </div>
                         <div>
                             <p className='uppercase pt-16'>Connect With Me</p>
-                            <div className='flex items-center justify-between py-4'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
+                           <div className='flex items-center justify-between py-4'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
                                     <FaLinkedinIn />
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
                                     <FaGithub />
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
                                     <AiOutlineMail />
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-500'>
                                     <BsFillPersonLinesFill />
                                 </div>
                             </div>
